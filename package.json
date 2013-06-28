@@ -1,0 +1,21 @@
+{
+    "name": "gameeffect",
+    "version": "0.0.1",
+    "description": "game efffect sound",
+    "main": "app.js",
+    "directories": {
+        "test": "test"
+    },
+    "dependencies": {
+        "sequelize": "~2.0.0-alpha2",
+        "sqlite3": "~2.1.10",
+        "express": "*"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "",
+    "author": "youxiachai",
+    "license": "bsd"
+}
