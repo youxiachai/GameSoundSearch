@@ -1,0 +1,103 @@
+body {
+    background: #F6F6F6;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+
+.g-clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.b-search-input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #B2B2B2;
+    border-radius: 1px 3px 3px 1px;
+    padding: 0;
+    vertical-align: top;
+    width: 724px !important;
+}
+
+.b-search-input .input {
+    background: url("input_bg.gif") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 38px;
+    position: relative;
+    width: 643px;
+}
+
+.b-search-input .input input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #333333;
+    display: block;
+    font: 22px/20px Arial, Helvetica, sans-serif;
+    margin: 0;
+    outline: 0 none;
+    padding: 7px 0 7px 8px;
+    width: 600px;
+}
+
+.b-search-input .darr {
+    display: block;
+    height: 15px;
+    overflow: hidden;
+    position: absolute;
+    right: 7px;
+    text-indent: -999em;
+    top: 9px;
+    width: 14px;
+}
+
+.b-search-input .button {
+    border-left: 1px solid #AFAFAF;
+    float: left;
+    margin-right: -100%;
+    vertical-align: top;
+    width: 72px;
+}
+
+.b-search-input .button .inner {
+    display: block;
+}
+
+.b-search-input .button input {
+    background: -moz-linear-gradient(-90deg, #FFFFFF, #E8E7E9) repeat scroll 0 0 transparent;
+    border: medium none;
+    border-radius: 1px 3px 3px 1px;
+    cursor: pointer;
+    font: bold 13px/15px Arial, Helvetica, sans-serif;
+    height: 38px;
+    width: 80px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#colorBoxes {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#colorBoxes p {
+    color: #FFFFFF;
+    float: left;
+    margin: 0 5px;
+    padding: 2px 10px;
+}
+
+.color1 {
+    color: #49AFD0;
+}
